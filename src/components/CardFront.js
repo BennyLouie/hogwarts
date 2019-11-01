@@ -4,12 +4,7 @@ import '../App.css';
 export default class CardFront extends Component{
 
     findPic = (name) => {
-        let newName = name.toLowerCase()
-        if (newName.includes(" ")){
-            let picName= newName.split(" ").join("_")
-            return picName
-        }
-        return newName
+        return name.split(" ").join("_")
     }
     
     render(){
