@@ -12,7 +12,7 @@ export default class CardFront extends Component{
             <div className="ui card card-front">
                 <h1 className="header">{this.props.name}</h1>
                 <div className="image">
-                    <img src={`/hog-imgs/${this.findPic(this.props.name)}.jpg`} alt={`${this.props.name}`}/>
+                    <img src={`/hog-imgs/${this.findPic(this.props.name)}.jpg`} alt={this.props.name}/>
                 </div>
             </div>
         )
