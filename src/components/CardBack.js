@@ -9,6 +9,7 @@ export default class CardBack extends Component{
                     <h3>Highest Medal Achieved: {this.props['highest medal achieved']}</h3>
                     <h3>Weight: {this.props.weight}</h3>
                     <h3>Specialty: {this.props.specialty}</h3>
+                    <h3>Greased Status: {`${this.props.greased}`}</h3>
                 </div>
             </div>
         )
